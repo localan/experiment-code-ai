@@ -2,6 +2,17 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Running with Bun
+
+Install dependencies and start the development server with [Bun](https://bun.sh):
+
+```
+bun install
+bun run dev
+```
+
+The homepage renders a simple `Hello, world!` message using a React component.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
